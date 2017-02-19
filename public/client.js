@@ -21,9 +21,9 @@ socket.on('getUsername', function(data) {
         document.cookie = "username=" + username + "; expires=Thu, 18 Dec 2018 12:00:00 UTC";
 });
 
-socket.on('userCount', function(data) {
+/*socket.on('userCount', function(data) {
     $('userCount').text(data);
-});
+});*/
 
 // listener for 'thread' event, which updates messages
 

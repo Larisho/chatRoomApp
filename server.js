@@ -19,7 +19,9 @@ io.on('connection', function(client) {
 
     client.on('join', function(data) {
         console.log(data);
+/*
         client.broadcast.emit('userCount', io.sockets.clients().length);
+*/
         client.emit('getUsername', words);
     });
 
