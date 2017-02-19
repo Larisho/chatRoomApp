@@ -1,0 +1,16 @@
+{
+  "name": "chat-room",
+  "version": "0.0.1",
+  "description": "Chat room where everyone gets everyone's messages",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriele Bianchet-David",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "random-words": "0.0.1",
+    "socket.io": "^1.7.3"
+  }
+}
